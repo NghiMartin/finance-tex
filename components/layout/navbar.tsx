@@ -139,7 +139,7 @@ export const Navbar = () => {
       {/* <!-- Desktop --> */}
       <div className="flex gap-2">
         {/* <ToggleTheme /> */}
-            <Button className="w-3/6 md:w-2/4 py-6 max-sm:py-3 rounded-3xl font-bold text-base max-sm:text-sm text-white group/arrow" 
+            <Button className="w-3/6 md:w-2/4 py-6 max-sm:py-3 rounded-xl font-bold text-base max-sm:text-sm text-white group/arrow" 
                     onClick={() => openSheet("signup")}
                     >
              {t("sign-up")}
@@ -147,7 +147,7 @@ export const Navbar = () => {
             <Button
               asChild
               variant="secondary"
-              className="w-3/6 md:w-2/4 py-6 text-base max-sm:py-3 rounded-3xl max-sm:text-sm text font-bold"
+              className="w-3/6 md:w-2/4 py-6 text-base max-sm:py-3 rounded-xl max-sm:text-sm text font-bold"
               onClick={() => openSheet("login")}
             >
               <Link

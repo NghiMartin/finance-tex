@@ -1,11 +1,13 @@
 "use client"
 import { Button } from "@/components/ui/button";
+import { useSheet } from "@/hooks/useSheet";
 import { ArrowRight, Link } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 
 export const TradeInsights = () => {
   const { t } = useTranslation();
+  const { openSheet } = useSheet();
 
   return (
     <section className="hp-banner grid lg:grid-cols-2 place-items-center px-50 py-20 md:py-32 gap-10">
@@ -32,7 +34,7 @@ export const TradeInsights = () => {
        
       <div className=" lg:flex gap-5">
         {/* <ToggleTheme /> */}
-            <Button className=" md:w-4/4 font-bold group/arrow rounded-[30px] p-8">
+            <Button onClick={() => openSheet("login")} className=" md:w-4/4 font-bold group/arrow rounded-[30px] p-8">
             {t("start-trading")}
             </Button>
       </div>

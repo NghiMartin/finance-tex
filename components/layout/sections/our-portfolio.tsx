@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Icon } from "@/components/ui/icon";
+import { useSheet } from "@/hooks/useSheet";
 import { cn } from "@/lib/utils";
 import { icons } from "lucide-react";
 import Image from "next/image";
@@ -17,6 +18,7 @@ interface FeaturesProps {
 
 export const OurPortfolio = () => {
   const { t } = useTranslation();
+  const { openSheet } = useSheet();
 
   const featureList: FeaturesProps[] = [
     {
@@ -78,7 +80,7 @@ export const OurPortfolio = () => {
         </p>
        
       <div className=" lg:flex gap-5">
-            <Button className=" md:w-4/4 font-bold group/arrow rounded-[30px] p-8">
+            <Button  onClick={() => openSheet("login")} className=" md:w-4/4 font-bold group/arrow rounded-[30px] p-8">
             {t("start-trading")}
             </Button>
       </div>

@@ -189,16 +189,16 @@ export function RegisterForm({
           <Button type="submit" className="w-full">
             {t("register-sheet.submit")}
           </Button>
-          {/* Login Prompt */}
-          <div className="relative text-start text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-border">
-            <span className="relative z-10 bg-background px-2 text-white">
+          {/* Register Prompt */}
+          <div className="relative text-start text-sm ">
+            <span className="relative z-10 text-start  text-white">
               {t("register-sheet.login_prompt.text")}{" "}
                 <span
                   onClick={(e) => {
                     e.preventDefault(); 
                     openSheet("login"); 
                   }}
-                  className="ml-auto text-sm underline underline-offset-4 text-hightlight cursor-pointer"
+                  className="ml-auto  text-sm underline underline-offset-4 text-hightlight cursor-pointer"
                 >
                 {t("register-sheet.login_prompt.link")}
                 </span>
