@@ -75,8 +75,8 @@ export function RegisterForm({
         className={cn("flex w-full  flex-col gap-10", className)}
         {...props}
       >
-        <div className="flex flex-col items-center gap-5 text-center">
-          <h1 className="text-xl font-bold">{t("register-sheet.title")}</h1>
+        <div className="flex flex-col items-start gap-5 text-start">
+          <h1 className="text-xl text-start font-bold">{t("register-sheet.title")}</h1>
         </div>
         <div className="grid gap-6">
           {/* Email Field */}
@@ -94,7 +94,8 @@ export function RegisterForm({
                     {...field}
                     className={cn(
                       "border",
-                      errors.email ? "border-red-500" : "border-gray-300"
+                      "h-[50px] !important",
+                      errors.email ? "border-red-500" : "border-0"
                     )}
                   />
                 </FormControl>
@@ -118,7 +119,8 @@ export function RegisterForm({
                     {...field}
                     className={cn(
                       "border",
-                      errors.nickname ? "border-red-500" : "border-gray-300"
+                      "h-[50px] !important",
+                      errors.nickname ? "border-red-500" : "border-0"
                     )}
                   />
                 </FormControl>
@@ -146,7 +148,8 @@ export function RegisterForm({
                     }}
                     className={cn(
                       "border",
-                      errors.password ? "border-red-500" : "border-gray-300"
+                      "h-[50px] !important",
+                      errors.password ? "border-red-500" : "border-0"
                     )}
                     autoComplete="new-password"
                   />
@@ -156,29 +159,7 @@ export function RegisterForm({
             )}
           />
 
-          {/* Password Confirmation Field */}
-          <FormField
-            control={form.control}
-            name="passwordConfirmation"
-            render={({ field }) => (
-              <FormItem>
-                <FormLabel>Xác nhận mật khẩu</FormLabel>
-                <FormControl>
-                  <PasswordInput
-                    id="passwordConfirmation"
-                    placeholder="Nhập lại mật khẩu..."
-                    {...field}
-                    className={cn(
-                      "border",
-                      errors.passwordConfirmation ? "border-red-500" : "border-gray-300"
-                    )}
-                    autoComplete="new-password"
-                  />
-                </FormControl>
-                <FormMessage />
-              </FormItem>
-            )}
-          />
+        
 
           {/* Referral Code Field */}
           <FormField
@@ -193,7 +174,11 @@ export function RegisterForm({
                     type="text"
                     placeholder={t("register-sheet.referral_code.placeholder")}
                     {...field}
-                    className="border-gray-300"
+                    className={cn(
+                      "border",
+                      "h-[50px] !important",
+                      errors.referral_code ? "border-red-500" : "border-0"
+                    )}
                   />
                 </FormControl>
               </FormItem>

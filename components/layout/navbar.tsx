@@ -113,8 +113,8 @@ export const Navbar = () => {
             className="flex flex-col h-full  justify-between overflow-y-auto   bg-card border-secondary "
           >
             <div>
-              <SheetHeader className="mb-4 ml-4">
-                <SheetTitle className="flex items-center ">
+              <SheetHeader className="mb-4">
+                <SheetTitle className="absolute left-4 top-2  max-sm:top-7">
                 <Logo/>
                 </SheetTitle>
               </SheetHeader>

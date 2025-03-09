@@ -28,6 +28,8 @@ export function ResendVerificationForm({ className, ...props }: React.ComponentP
       email: "",
     },
   })
+  const { errors } = form.formState
+
   const { isOpen, openSheet, sheetType } = useSheet();
 
   function onSubmit(data: any) {
@@ -57,6 +59,11 @@ export function ResendVerificationForm({ className, ...props }: React.ComponentP
                   <Input
                     id="email"
                     type="email"
+                    className={cn(
+                        "border",
+                        errors.email ? "border-red-500" : "border-0",
+                        "h-[50px] !important",
+                      )}
                     placeholder={t("resend-verification.email.placeholder")}
                     {...field}
                   />

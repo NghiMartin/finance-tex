@@ -19,6 +19,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form"
+import { useSheet } from "@/hooks/useSheet"
 
 const formSchema = z.object({
   email: z.string().email({
@@ -40,6 +41,7 @@ export function ForgotPasswordForm({
     },
   })
   const { errors } = form.formState;
+  const { isOpen, openSheet, sheetType } = useSheet();
 
   function onSubmit(data: any) {
     console.log("Forgot-password Data:", data)
@@ -53,7 +55,7 @@ export function ForgotPasswordForm({
         className={cn("flex w-full flex-col gap-10", className)}
         {...props}
       >
-        <div className="flex flex-col items-center gap-5 text-center">
+        <div className="flex flex-col items-start gap-5 text-start">
           <h1 className="text-xl font-bold">{t("forgot-password.title")}</h1>
           <p className="text-sm text-gray-500">{t("forgot-password.description")}</p>
         </div>
@@ -73,7 +75,8 @@ export function ForgotPasswordForm({
                     {...field}
                     className={cn(
                       "border",
-                      errors.email ? "border-red-500" : "border-gray-300"
+                      "h-[50px] !important",
+                      errors.email ? "border-red-500" : "border-0"
                     )}
                   />
                 </FormControl>
@@ -86,11 +89,11 @@ export function ForgotPasswordForm({
             {t("forgot-password.submit")}
           </Button>
           {/* Login Prompt */}
-          <p className="text-center text-sm text-gray-500">
+          <p className="text-start text-sm text-gray-500">
             {t("forgot-password.login_prompt.text")} {" "}
-            <a href="/login" className="text-blue-500 hover:underline">
+            <span  onClick={() => openSheet("login")}  className="text-hightlight cursor-pointer underline">
               {t("forgot-password.login_prompt.link")}
-            </a>
+            </span>
           </p>
         </div>
       </form>

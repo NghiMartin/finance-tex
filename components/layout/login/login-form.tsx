@@ -80,7 +80,8 @@ const { errors } =form.formState;
                     {...field}
                     className={cn(
                       "border",
-                      errors.email ? "border-red-500" : "border-gray-300"
+                      "h-[50px] !important",
+                      errors.email ? "border-red-500" : "border-0"
                     )}
                   />
                 </FormControl>
@@ -106,7 +107,8 @@ const { errors } =form.formState;
                     value={currentPassword}
                     className={cn(
                       "border",
-                      errors.email ? "border-red-500" : "border-gray-300"
+                      "h-[50px] !important",
+                      errors.email ? "border-red-500" : "border-0"
                     )}
                     onChange={(e) => {
                       setCurrentPassword(e.target.value)
@@ -122,7 +124,7 @@ const { errors } =form.formState;
                   <div
                   onClick={(e) => {
                     e.preventDefault(); 
-                    openSheet("signup"); 
+                    openSheet("forgot-password"); 
                   }}
                   className="ml-auto text-sm underline-offset-4 hover:underline cursor-pointer"
                 >
