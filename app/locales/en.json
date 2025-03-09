@@ -1,0 +1,192 @@
+{
+    "name-logo": "FinanTex",
+    "login": "Log In",
+    "sign-up": "Sign Up",
+    "start-trading": "START FOR FREE",
+    "register-sheet": {
+      "title": "Create a FinanTex Account",
+      "email": {
+        "label": "Email Address *",
+        "placeholder": "Enter Email..."
+      },
+      "password": {
+        "label": "Password *",
+        "placeholder": "Enter Password..."
+      },
+      "nickname": {
+        "label": "Nickname *",
+        "placeholder": "Enter Nickname..."
+      },
+      "referral_code": {
+        "label": "Referral Code / Promo Code",
+        "placeholder": "Enter Referral Code..."
+      },
+      "submit": "Sign Up",
+      "login_prompt": {
+        "text": "Already have a FinanTex account?",
+        "link": "Log in to Your Account"
+      }
+    },
+    "login-sheet": {
+      "title": "Log in to Your Account",
+      "email": {
+        "label": "Email Address *",
+        "placeholder": "Enter Email..."
+      },
+      "password": {
+        "label": "Password *",
+        "placeholder": "Enter Password..."
+      },
+      "forgot_password": "Forgot password?",
+      "submit": "Log In",
+      "register_prompt": {
+        "text": "Need a FinanTex account?",
+        "link": "Sign Up"
+      },
+      "resend_email": {
+        "text": "Didn't receive a confirmation email?",
+        "link": "Request a new email."
+      }
+    },
+    "resend-verification": {
+      "title": "Resend Verification Email",
+      "description": "Please enter your email address to resend the verification email.",
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter Email..."
+      },
+      "submit": "Resend",
+      "login_prompt": {
+        "text": "Already have a FinanTex account?",
+        "link": "Log in to Your Account"
+      }
+    },
+    "forgot-password": {
+      "title": "Forgot Password",
+      "description": "Please enter your email address to receive a password reset email.",
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter Email..."
+      },
+      "submit": "Send Reset Email",
+      "login_prompt": {
+        "text": "Have a FinanTex account?",
+        "link": "Log in to Your Account"
+      }
+    },
+    "hp-banner": {
+      "main-banner-sub-title": "SMART TRAINING. SKILL DEVELOPMENT",
+      "main-banner-title": "The Ideal Trading Platform to Earn Money - FinanTex",
+      "main-banner-description": "FinanTex is a trading platform offering unlimited income opportunities. Its simple interface delivers a world-class experience for everyone."
+    },
+    "hp-banner-2": {
+      "main-banner-title": "Trading Indicators That Help Clients Earn More",
+      "main-banner-description": "FinanTex develops highly advanced and easy-to-use indicators to help traders make better trading decisions."
+    },
+    "hp-banner-3": {
+      "main-banner-sub-title-top": "The FinanTex Platform is Built",
+      "main-banner-sub-title-bottom": "on Innovation",
+      "section-bottom": {
+        "item-1": {
+          "title": "FinanTex Stability & Security",
+          "description": "Our platform is highly stable and available worldwide. We protect your assets with the best security practices."
+        },
+        "item-2": {
+          "title": "Refer & Earn",
+          "description": "Refer friends and earn money together by trading."
+        },
+        "item-3": {
+          "title": "Fast & Free",
+          "description": "No deposit fees and low withdrawal fees. Transactions are completed within minutes."
+        }
+      }
+    },
+    "hp-banner-4": {
+      "start-with": "Get started in",
+      "after-5-mins": "just 5 minutes",
+      "section-step": {
+        "step-1": {
+          "main": "Step 1",
+          "title": "Sign Up for FinanTex",
+          "description": "Use your email address to create a free FinanTex account."
+        },
+        "step-2": {
+          "main": "Step 2",
+          "title": "Deposit Funds",
+          "description": "Deposit using various popular cryptocurrencies."
+        },
+        "step-3": {
+          "main": "Step 3",
+          "title": "Start Trading",
+          "description": "Earn money by predicting asset prices."
+        }
+      }
+    },
+    "hp-banner-5": {
+      "high-light-text-1": "Anywhere",
+      "high-light-text-2": "Anytime",
+      "you-want": "you want.",
+      "you-need": "you need.",
+      "description": "FinanTex enables even new traders to earn a sustainable income."
+    },
+    "hp-banner-6": {
+      "title": "Frequently Asked Questions",
+      "list-faq": {
+        "faq1": {
+          "title": "What is FinanTex?",
+          "answer": "FinanTex is a binary options (BO) trading platform launched in 2025. It is operated by an experienced team and incorporates the best features and technologies from existing platforms while introducing new advancements for a seamless trading experience."
+        },
+        "faq2": {
+          "title": "Is FinanTex a scam?",
+          "answer": "No, traders may experience losses due to improper trading strategies, but FinanTex does not scam users. While the platform offers high-profit potential, investing always carries risks. Traders should be well-prepared and knowledgeable to maximize their earnings."
+        },
+        "faq3": {
+          "title": "What is a VIP account used for?",
+          "answer": "A VIP account allows participation in the platform’s Affiliate Program, enabling users to earn referral commissions. The registration fee for a VIP account is 100 USDT."
+        },
+        "faq4": {
+          "title": "What is the purpose of a demo account?",
+          "answer": "A FinanTex demo account comes with $1000 in virtual funds, allowing users to practice trading, gain experience, and develop optimal trading strategies. The demo balance is unlimited but cannot be withdrawn."
+        },
+        "faq5": {
+          "title": "How can I earn money on FinanTex?",
+          "answer": "Beyond trading market fluctuations, FinanTex offers an Affiliate Program where investors can earn commissions by referring new users to the platform."
+        }
+      }
+    },
+    "hp-banner-7": {
+      "title": "What Our Customers Say About Us",
+      "review-list": {
+        "review-1": {
+          "owner": "Jony Dang",
+          "description": "With the help of FinanTex..."
+        },
+        "review-2": {
+          "owner": "Jony Dang",
+          "description": "With the help of FinanTex..."
+        },
+        "review-3": {
+          "owner": "Jony Dang",
+          "description": "With the help of FinanTex..."
+        },
+        "review-4": {
+          "owner": "Jony Dang",
+          "description": "With the help of FinanTex..."
+        },
+        "review-5": {
+          "owner": "Jony Dang",
+          "description": "With the help of FinanTex..."
+        }
+      }
+    },
+    "footer": {
+      "support": "Support",
+      "vip-obligations": "VIP Member Obligations",
+      "privacy-policy": "Privacy Policy",
+      "security": "Security",
+      "terms-and-conditions": "Terms and Conditions",
+      "warning-risk-fqa": "Risk Warning",
+      "warning-risk": "Risk Warning: Trading and investing in digital options carry significant risk and may not be suitable for all clients. Please carefully consider your investment objectives, experience level, and risk tolerance before buying or selling any digital assets. You should fully understand all risks associated with trading and investing in digital assets..."
+    }
+  }
+  

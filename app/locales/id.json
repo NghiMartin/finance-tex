@@ -1,0 +1,184 @@
+{
+    "name-logo": "FinanTex",
+    "login": "Masuk",
+    "sign-up": "Daftar",
+    "start-trading": "MULAI GRATIS",
+    "register-sheet": {
+      "title": "Buat Akun FinanTex",
+      "email": {
+        "label": "Alamat Email *",
+        "placeholder": "Masukkan Email..."
+      },
+      "password": {
+        "label": "Kata Sandi *",
+        "placeholder": "Masukkan Kata Sandi..."
+      },
+      "nickname": {
+        "label": "Nama Panggilan *",
+        "placeholder": "Masukkan Nama Panggilan..."
+      },
+      "referral_code": {
+        "label": "Kode Referral / Promo",
+        "placeholder": "Masukkan Kode Referral..."
+      },
+      "submit": "Daftar",
+      "login_prompt": {
+        "text": "Sudah punya akun FinanTex?",
+        "link": "Masuk ke Akun Anda"
+      }
+    },
+    "login-sheet": {
+      "title": "Masuk ke Akun Anda",
+      "email": {
+        "label": "Alamat Email *",
+        "placeholder": "Masukkan Email..."
+      },
+      "password": {
+        "label": "Kata Sandi *",
+        "placeholder": "Masukkan Kata Sandi..."
+      },
+      "forgot_password": "Lupa kata sandi?",
+      "submit": "Masuk",
+      "register_prompt": {
+        "text": "Belum punya akun FinanTex?",
+        "link": "Daftar Sekarang"
+      },
+      "resend_email": {
+        "text": "Belum menerima email konfirmasi?",
+        "link": "Minta email baru."
+      }
+    },
+    "resend-verification": {
+      "title": "Kirim Ulang Email Verifikasi",
+      "description": "Masukkan alamat email Anda untuk mengirim ulang email verifikasi.",
+      "email": {
+        "label": "Alamat Email",
+        "placeholder": "Masukkan Email..."
+      },
+      "submit": "Kirim Ulang",
+      "login_prompt": {
+        "text": "Sudah punya akun FinanTex?",
+        "link": "Masuk ke Akun Anda"
+      }
+    },
+    "forgot-password": {
+      "title": "Lupa Kata Sandi",
+      "description": "Masukkan alamat email Anda untuk menerima email reset kata sandi.",
+      "email": {
+        "label": "Alamat Email",
+        "placeholder": "Masukkan Email..."
+      },
+      "submit": "Kirim Email Reset",
+      "login_prompt": {
+        "text": "Sudah punya akun FinanTex?",
+        "link": "Masuk ke Akun Anda"
+      }
+    },
+    "hp-banner": {
+      "main-banner-sub-title": "PELATIHAN CERDAS. PENGEMBANGAN KETERAMPILAN",
+      "main-banner-title": "Platform Trading Ideal untuk Menghasilkan Uang - FinanTex",
+      "main-banner-description": "FinanTex adalah platform trading yang menawarkan peluang penghasilan tak terbatas. Dengan antarmuka yang sederhana, FinanTex memberikan pengalaman kelas dunia bagi semua orang."
+    },
+    "hp-banner-2": {
+      "main-banner-title": "Indikator Trading yang Membantu Klien Menghasilkan Lebih Banyak",
+      "main-banner-description": "FinanTex mengembangkan indikator canggih dan mudah digunakan untuk membantu trader mengambil keputusan yang lebih baik."
+    },
+    "hp-banner-3": {
+      "main-banner-sub-title-top": "Platform FinanTex Dibangun",
+      "main-banner-sub-title-bottom": "dengan Inovasi",
+      "section-bottom": {
+        "item-1": {
+          "title": "Stabilitas & Keamanan FinanTex",
+          "description": "Platform kami sangat stabil dan tersedia secara global. Kami melindungi aset Anda dengan praktik keamanan terbaik."
+        },
+        "item-2": {
+          "title": "Ajak Teman & Dapatkan Bonus",
+          "description": "Ajak teman dan hasilkan uang bersama melalui trading."
+        },
+        "item-3": {
+          "title": "Cepat & Gratis",
+          "description": "Tidak ada biaya deposit dan biaya penarikan rendah. Transaksi selesai dalam hitungan menit."
+        }
+      }
+    },
+    "hp-banner-4": {
+      "start-with": "Mulai dalam",
+      "after-5-mins": "hanya 5 menit",
+      "section-step": {
+        "step-1": {
+          "main": "Langkah 1",
+          "title": "Daftar di FinanTex",
+          "description": "Gunakan alamat email Anda untuk membuat akun FinanTex secara gratis."
+        },
+        "step-2": {
+          "main": "Langkah 2",
+          "title": "Deposit Dana",
+          "description": "Deposit menggunakan berbagai mata uang kripto populer."
+        },
+        "step-3": {
+          "main": "Langkah 3",
+          "title": "Mulai Trading",
+          "description": "Hasilkan uang dengan memprediksi pergerakan harga aset."
+        }
+      }
+    },
+    "hp-banner-5": {
+      "high-light-text-1": "Dimana Saja",
+      "high-light-text-2": "Kapan Saja",
+      "you-want": "Anda inginkan.",
+      "you-need": "Anda butuhkan.",
+      "description": "FinanTex memungkinkan bahkan trader pemula untuk mendapatkan penghasilan berkelanjutan."
+    },
+    "hp-banner-6": {
+      "title": "Pertanyaan yang Sering Diajukan",
+      "list-faq": {
+        "faq1": {
+          "title": "Apa itu FinanTex?",
+          "answer": "FinanTex adalah platform trading opsi biner (BO) yang diluncurkan pada tahun 2025. Dikelola oleh tim berpengalaman, platform ini menggabungkan fitur dan teknologi terbaik dari platform yang ada, serta memperkenalkan inovasi baru untuk pengalaman trading yang lebih lancar."
+        },
+        "faq2": {
+          "title": "Apakah FinanTex penipuan?",
+          "answer": "Tidak, trader mungkin mengalami kerugian karena strategi trading yang salah, tetapi FinanTex tidak menipu pengguna. Meskipun platform ini menawarkan potensi keuntungan tinggi, investasi selalu memiliki risiko. Trader harus memiliki persiapan dan pengetahuan yang baik untuk memaksimalkan keuntungan mereka."
+        },
+        "faq3": {
+          "title": "Apa kegunaan akun VIP?",
+          "answer": "Akun VIP memungkinkan pengguna untuk berpartisipasi dalam Program Afiliasi platform, di mana mereka bisa mendapatkan komisi dari referral. Biaya registrasi akun VIP adalah 100 USDT."
+        },
+        "faq4": {
+          "title": "Apa manfaat akun demo?",
+          "answer": "Akun demo FinanTex memiliki saldo virtual $1000, yang memungkinkan pengguna untuk berlatih trading, mendapatkan pengalaman, dan mengembangkan strategi terbaik. Saldo akun demo tidak terbatas tetapi tidak dapat ditarik."
+        },
+        "faq5": {
+          "title": "Bagaimana cara menghasilkan uang di FinanTex?",
+          "answer": "Selain trading di pasar keuangan, FinanTex juga menawarkan Program Afiliasi, di mana investor bisa mendapatkan komisi dengan mengajak pengguna baru ke platform."
+        }
+      }
+    },
+    "hp-banner-7": {
+      "title": "Apa Kata Pelanggan Tentang Kami",
+      "review-list": {
+        "review-1": {
+          "owner": "Jony Dang",
+          "description": "Dengan bantuan FinanTex..."
+        },
+        "review-2": {
+          "owner": "Jony Dang",
+          "description": "Dengan bantuan FinanTex..."
+        },
+        "review-3": {
+          "owner": "Jony Dang",
+          "description": "Dengan bantuan FinanTex..."
+        }
+      }
+    },
+    "footer": {
+      "support": "Dukungan",
+      "vip-obligations": "Kewajiban Anggota VIP",
+      "privacy-policy": "Kebijakan Privasi",
+      "security": "Keamanan",
+      "terms-and-conditions": "Syarat dan Ketentuan",
+      "warning-risk-fqa": "Peringatan Risiko",
+      "warning-risk": "Peringatan Risiko: Trading dan investasi dalam opsi digital memiliki risiko tinggi dan mungkin tidak cocok untuk semua klien..."
+    }
+  }
+  

@@ -1,0 +1,92 @@
+{
+    "name-logo": "FinanTex",
+    "login": "登录",
+    "sign-up": "注册",
+    "start-trading": "免费开始",
+    "register-sheet": {
+      "title": "创建 FinanTex 账户",
+      "email": {
+        "label": "电子邮箱 *",
+        "placeholder": "输入电子邮箱..."
+      },
+      "password": {
+        "label": "密码 *",
+        "placeholder": "输入密码..."
+      },
+      "nickname": {
+        "label": "昵称 *",
+        "placeholder": "输入昵称..."
+      },
+      "referral_code": {
+        "label": "推荐码 / 促销代码",
+        "placeholder": "输入推荐码..."
+      },
+      "submit": "注册",
+      "login_prompt": {
+        "text": "已有 FinanTex 账户？",
+        "link": "登录"
+      }
+    },
+    "login-sheet": {
+      "title": "登录您的账户",
+      "email": {
+        "label": "电子邮箱 *",
+        "placeholder": "输入电子邮箱..."
+      },
+      "password": {
+        "label": "密码 *",
+        "placeholder": "输入密码..."
+      },
+      "forgot_password": "忘记密码？",
+      "submit": "登录",
+      "register_prompt": {
+        "text": "还没有账户？",
+        "link": "立即注册"
+      },
+      "resend_email": {
+        "text": "没有收到验证邮件？",
+        "link": "重新发送"
+      }
+    },
+    "resend-verification": {
+      "title": "重新发送验证邮件",
+      "description": "输入您的电子邮箱以重新接收验证邮件",
+      "email": {
+        "label": "电子邮箱",
+        "placeholder": "输入电子邮箱..."
+      },
+      "submit": "重新发送",
+      "login_prompt": {
+        "text": "已有账户？",
+        "link": "登录"
+      }
+    },
+    "forgot-password": {
+      "title": "忘记密码",
+      "description": "输入您的电子邮箱以接收重置密码的链接",
+      "email": {
+        "label": "电子邮箱",
+        "placeholder": "输入电子邮箱..."
+      },
+      "submit": "发送重置链接",
+      "login_prompt": {
+        "text": "已有账户？",
+        "link": "登录"
+      }
+    },
+    "hp-banner": {
+      "main-banner-sub-title": "智能交易 & 提升您的技能",
+      "main-banner-title": "最佳交易平台 - FinanTex",
+      "main-banner-description": "FinanTex 提供无限赚钱机会，操作简单，高效便捷"
+    },
+    "footer": {
+      "support": "客户支持",
+      "vip-obligations": "VIP 权益",
+      "privacy-policy": "隐私政策",
+      "security": "安全性",
+      "terms-and-conditions": "条款与条件",
+      "warning-risk-fqa": "风险警告常见问题",
+      "warning-risk": "交易金融产品具有高风险..."
+    }
+  }
+  

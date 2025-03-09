@@ -1,0 +1,167 @@
+{
+    "name-logo": "FinanTex",
+    "login": "ログイン",
+    "sign-up": "登録",
+    "start-trading": "無料で始める",
+    "register-sheet": {
+      "title": "FinanTex アカウントを作成",
+      "email": {
+        "label": "メールアドレス *",
+        "placeholder": "メールアドレスを入力..."
+      },
+      "password": {
+        "label": "パスワード *",
+        "placeholder": "パスワードを入力..."
+      },
+      "nickname": {
+        "label": "ニックネーム *",
+        "placeholder": "ニックネームを入力..."
+      },
+      "referral_code": {
+        "label": "紹介コード / プロモコード",
+        "placeholder": "紹介コードを入力..."
+      },
+      "submit": "登録",
+      "login_prompt": {
+        "text": "すでにFinanTexのアカウントをお持ちですか？",
+        "link": "ログインする"
+      }
+    },
+    "login-sheet": {
+      "title": "アカウントにログイン",
+      "email": {
+        "label": "メールアドレス *",
+        "placeholder": "メールアドレスを入力..."
+      },
+      "password": {
+        "label": "パスワード *",
+        "placeholder": "パスワードを入力..."
+      },
+      "forgot_password": "パスワードをお忘れですか？",
+      "submit": "ログイン",
+      "register_prompt": {
+        "text": "まだアカウントをお持ちではありませんか？",
+        "link": "今すぐ登録"
+      },
+      "resend_email": {
+        "text": "確認メールを受信していませんか？",
+        "link": "再送信する"
+      }
+    },
+    "resend-verification": {
+      "title": "確認メールの再送",
+      "description": "メールアドレスを入力して、確認メールを再送してください。",
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "メールアドレスを入力..."
+      },
+      "submit": "再送信",
+      "login_prompt": {
+        "text": "すでにアカウントをお持ちですか？",
+        "link": "ログインする"
+      }
+    },
+    "forgot-password": {
+      "title": "パスワードを忘れた",
+      "description": "パスワードリセットメールを受信するためにメールアドレスを入力してください。",
+      "email": {
+        "label": "メールアドレス",
+        "placeholder": "メールアドレスを入力..."
+      },
+      "submit": "リセットメールを送信",
+      "login_prompt": {
+        "text": "すでにアカウントをお持ちですか？",
+        "link": "ログインする"
+      }
+    },
+    "hp-banner": {
+      "main-banner-sub-title": "スマートなトレーニングとスキルの向上",
+      "main-banner-title": "理想的な取引プラットフォーム - FinanTex",
+      "main-banner-description": "FinanTexは無限の収益機会を提供する取引プラットフォームです。シンプルなインターフェースで、誰でも簡単にトレードできます。"
+    },
+    "hp-banner-2": {
+      "main-banner-title": "トレーダーの利益を最大化する取引指標",
+      "main-banner-description": "FinanTexは、取引の意思決定をサポートする高度な指標を提供します。"
+    },
+    "hp-banner-3": {
+      "main-banner-sub-title-top": "FinanTexは",
+      "main-banner-sub-title-bottom": "革新によって構築された",
+      "section-bottom": {
+        "item-1": {
+          "title": "FinanTexの安定性とセキュリティ",
+          "description": "当プラットフォームは安定性が高く、世界中で利用可能です。資産を守るために最高水準のセキュリティを提供します。"
+        },
+        "item-2": {
+          "title": "友達を招待してボーナスを獲得",
+          "description": "友達を招待し、一緒に取引して報酬を得ましょう。"
+        },
+        "item-3": {
+          "title": "迅速かつ無料",
+          "description": "入金手数料無料、出金手数料も低額。取引は数分で完了します。"
+        }
+      }
+    },
+    "hp-banner-4": {
+      "start-with": "わずか",
+      "after-5-mins": "5分でスタート",
+      "section-step": {
+        "step-1": {
+          "main": "ステップ1",
+          "title": "FinanTexに登録",
+          "description": "メールアドレスを使って無料でアカウントを作成しましょう。"
+        },
+        "step-2": {
+          "main": "ステップ2",
+          "title": "資金を入金",
+          "description": "人気の暗号通貨を使って入金できます。"
+        },
+        "step-3": {
+          "main": "ステップ3",
+          "title": "取引を開始",
+          "description": "価格の動きを予測して利益を獲得しましょう。"
+        }
+      }
+    },
+    "hp-banner-5": {
+      "high-light-text-1": "どこでも",
+      "high-light-text-2": "いつでも",
+      "you-want": "好きな場所で",
+      "you-need": "好きな時間に",
+      "description": "FinanTexなら初心者でも継続的な収益を得られます。"
+    },
+    "hp-banner-6": {
+      "title": "よくある質問",
+      "list-faq": {
+        "faq1": {
+          "title": "FinanTexとは？",
+          "answer": "FinanTexは2025年に設立されたバイナリーオプション取引プラットフォームです。経験豊富なチームによって運営され、最新技術を活用したスムーズな取引体験を提供します。"
+        },
+        "faq2": {
+          "title": "FinanTexは詐欺ですか？",
+          "answer": "いいえ。トレーダーが損失を出す可能性はありますが、それは誤った取引戦略が原因です。FinanTexは透明性のあるプラットフォームであり、リスクを理解した上での取引が推奨されます。"
+        },
+        "faq3": {
+          "title": "VIPアカウントの特典は？",
+          "answer": "VIPアカウントではアフィリエイトプログラムに参加し、紹介報酬を得ることができます。登録料は100 USDTです。"
+        },
+        "faq4": {
+          "title": "デモアカウントのメリットは？",
+          "answer": "デモアカウントには$1000の仮想資金があり、取引の練習や戦略のテストが可能です。デモ資金は無制限に補充できますが、出金はできません。"
+        },
+        "faq5": {
+          "title": "FinanTexで稼ぐ方法は？",
+          "answer": "市場での取引に加えて、FinanTexのアフィリエイトプログラムを利用することで、紹介報酬を得ることができます。"
+        }
+      }
+    },
+    "footer": {
+      "support": "サポート",
+      "vip-obligations": "VIP会員の義務",
+      "privacy-policy": "プライバシーポリシー",
+      "security": "セキュリティ",
+      "terms-and-conditions": "利用規約",
+      "warning-risk-fqa": "リスク警告",
+      "warning-risk": "リスク警告：バイナリーオプション取引には高いリスクが伴い..."
+    }
+  }
+  

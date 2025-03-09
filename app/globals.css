@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  --tw-bg-opacity: 1;
+  background-color:#141416!important;
+}
+footer {
+  background-color: #181A20 !important; 
+}
+/* *=========== Default theme =========== */
+/* @layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 240 4.9% 83.9%;
+  }
+} */
+
+/* *=========== Orange theme =========== */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 20 14.3% 4.1%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+
+    --primary: 24.6 95% 53.1%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 24 9.8% 10%;
+
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+
+    --accent: 60 4.8% 95.9%;
+    --accent-foreground: 24 9.8% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 24.6 95% 53.1%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 60 9.1% 97.8%;
+
+    --card: 24 9.8% 8%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+
+    --primary: 20.5 90.2% 48.2%;
+    --primary-foreground: 60 9.1% 97.8%;
+
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 60 9.1% 97.8%;
+
+    --destructive: 0 72.2% 50.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 20.5 90.2% 48.2%;
+  }
+}
+
+.shadow-light {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.085);
+}
+
+.shadow-dark {
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.141);
+}
+.text-hightlight {
+  color: #ea580c;
+}
+.bg-hightlight {
+  background-color: #ea580c;
+}
+.blend-img {
+  mix-blend-mode: luminosity !important;
+}
+.sheet-content {
+  width: 468px;
+  min-width: 468px;
+  padding: 14px 14px 0px 14px;
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.hp-banner {
+  padding: 0 60px;
+}
+@media screen and (max-width: 576px) {
+  .hp-banner {
+      align-items: center;
+      margin-top: 150px;
+      padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hp-banner {
+      padding: 0;
+  }
+  .sheet-content {
+    width: 100%;
+  min-width: 24rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hp-banner {
+      flex-direction: column;
+      gap: 100px;
+      justify-content: center;
+      margin-bottom: 100px;
+      margin-top: 150px;
+      padding: 0 50px;
+  }
+}
+.hp-header {
+  /* background: #141416; */ 
+  padding: 32px 86px;
+  transition: background 0.3s, padding 0.3s;
+  background: #141416;
+  
+}
+
+.hp-header.isScroll {
+  background: #181A20;
+  padding: 7px 90px;
+}
+
+@media screen and (max-width: 768px) {
+  .hp-header {
+    padding: 16px 12px;
+  }
+
+  .hp-header.isScroll {
+    padding: 7px 12px;
+  }
+}

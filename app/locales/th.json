@@ -1,0 +1,92 @@
+{
+    "name-logo": "FinanTex",
+    "login": "เข้าสู่ระบบ",
+    "sign-up": "สมัครสมาชิก",
+    "start-trading": "เริ่มต้นฟรี",
+    "register-sheet": {
+      "title": "สร้างบัญชี FinanTex",
+      "email": {
+        "label": "อีเมล *",
+        "placeholder": "กรอกอีเมล..."
+      },
+      "password": {
+        "label": "รหัสผ่าน *",
+        "placeholder": "กรอกรหัสผ่าน..."
+      },
+      "nickname": {
+        "label": "ชื่อเล่น *",
+        "placeholder": "กรอกชื่อเล่น..."
+      },
+      "referral_code": {
+        "label": "รหัสแนะนำ / โปรโมชั่น",
+        "placeholder": "กรอกรหัส..."
+      },
+      "submit": "สมัครสมาชิก",
+      "login_prompt": {
+        "text": "มีบัญชี FinanTex อยู่แล้ว?",
+        "link": "เข้าสู่ระบบ"
+      }
+    },
+    "login-sheet": {
+      "title": "เข้าสู่บัญชีของคุณ",
+      "email": {
+        "label": "อีเมล *",
+        "placeholder": "กรอกอีเมล..."
+      },
+      "password": {
+        "label": "รหัสผ่าน *",
+        "placeholder": "กรอกรหัสผ่าน..."
+      },
+      "forgot_password": "ลืมรหัสผ่าน?",
+      "submit": "เข้าสู่ระบบ",
+      "register_prompt": {
+        "text": "ยังไม่มีบัญชี?",
+        "link": "สมัครเลย"
+      },
+      "resend_email": {
+        "text": "ไม่ได้รับอีเมลยืนยัน?",
+        "link": "ส่งอีกครั้ง"
+      }
+    },
+    "resend-verification": {
+      "title": "ส่งอีเมลยืนยันอีกครั้ง",
+      "description": "กรอกอีเมลของคุณเพื่อรับอีเมลยืนยันอีกครั้ง",
+      "email": {
+        "label": "อีเมล",
+        "placeholder": "กรอกอีเมล..."
+      },
+      "submit": "ส่งอีกครั้ง",
+      "login_prompt": {
+        "text": "มีบัญชีแล้ว?",
+        "link": "เข้าสู่ระบบ"
+      }
+    },
+    "forgot-password": {
+      "title": "ลืมรหัสผ่าน",
+      "description": "กรอกอีเมลของคุณเพื่อรับลิงก์สำหรับตั้งค่ารหัสผ่านใหม่",
+      "email": {
+        "label": "อีเมล",
+        "placeholder": "กรอกอีเมล..."
+      },
+      "submit": "ส่งลิงก์รีเซ็ตรหัสผ่าน",
+      "login_prompt": {
+        "text": "มีบัญชีแล้ว?",
+        "link": "เข้าสู่ระบบ"
+      }
+    },
+    "hp-banner": {
+      "main-banner-sub-title": "การซื้อขายอัจฉริยะ & พัฒนาทักษะของคุณ",
+      "main-banner-title": "แพลตฟอร์มการซื้อขายที่ดีที่สุด - FinanTex",
+      "main-banner-description": "FinanTex เป็นแพลตฟอร์มที่ให้โอกาสในการสร้างรายได้ไม่จำกัด ใช้งานง่าย และมีประสิทธิภาพ"
+    },
+    "footer": {
+      "support": "ฝ่ายสนับสนุน",
+      "vip-obligations": "สิทธิพิเศษสำหรับ VIP",
+      "privacy-policy": "นโยบายความเป็นส่วนตัว",
+      "security": "ความปลอดภัย",
+      "terms-and-conditions": "ข้อกำหนดและเงื่อนไข",
+      "warning-risk-fqa": "คำเตือนเกี่ยวกับความเสี่ยง",
+      "warning-risk": "การซื้อขายผลิตภัณฑ์ทางการเงินมีความเสี่ยงสูง..."
+    }
+  }
+  

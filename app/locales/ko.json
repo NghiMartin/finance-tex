@@ -1,0 +1,135 @@
+{
+    "name-logo": "FinanTex",
+    "login": "로그인",
+    "sign-up": "회원가입",
+    "start-trading": "무료로 시작하기",
+    "register-sheet": {
+      "title": "FinanTex 계정 만들기",
+      "email": {
+        "label": "이메일 *",
+        "placeholder": "이메일 입력..."
+      },
+      "password": {
+        "label": "비밀번호 *",
+        "placeholder": "비밀번호 입력..."
+      },
+      "nickname": {
+        "label": "닉네임 *",
+        "placeholder": "닉네임 입력..."
+      },
+      "referral_code": {
+        "label": "추천 코드 / 프로모션 코드",
+        "placeholder": "추천 코드 입력..."
+      },
+      "submit": "가입하기",
+      "login_prompt": {
+        "text": "이미 FinanTex 계정이 있나요?",
+        "link": "로그인"
+      }
+    },
+    "login-sheet": {
+      "title": "계정 로그인",
+      "email": {
+        "label": "이메일 *",
+        "placeholder": "이메일 입력..."
+      },
+      "password": {
+        "label": "비밀번호 *",
+        "placeholder": "비밀번호 입력..."
+      },
+      "forgot_password": "비밀번호를 잊으셨나요?",
+      "submit": "로그인",
+      "register_prompt": {
+        "text": "계정이 없으신가요?",
+        "link": "지금 가입하기"
+      },
+      "resend_email": {
+        "text": "인증 이메일을 받지 못하셨나요?",
+        "link": "다시 보내기"
+      }
+    },
+    "resend-verification": {
+      "title": "인증 이메일 다시 보내기",
+      "description": "이메일을 입력하여 인증 이메일을 다시 받으세요.",
+      "email": {
+        "label": "이메일",
+        "placeholder": "이메일 입력..."
+      },
+      "submit": "다시 보내기",
+      "login_prompt": {
+        "text": "이미 계정이 있으신가요?",
+        "link": "로그인"
+      }
+    },
+    "forgot-password": {
+      "title": "비밀번호 찾기",
+      "description": "이메일을 입력하면 비밀번호 재설정 링크가 발송됩니다.",
+      "email": {
+        "label": "이메일",
+        "placeholder": "이메일 입력..."
+      },
+      "submit": "비밀번호 재설정 이메일 보내기",
+      "login_prompt": {
+        "text": "이미 계정이 있으신가요?",
+        "link": "로그인"
+      }
+    },
+    "hp-banner": {
+      "main-banner-sub-title": "스마트한 트레이딩과 스킬 개발",
+      "main-banner-title": "최고의 트레이딩 플랫폼 - FinanTex",
+      "main-banner-description": "FinanTex는 무제한 수익 기회를 제공하는 트레이딩 플랫폼입니다. 간편한 인터페이스로 손쉽게 거래를 시작하세요."
+    },
+    "hp-banner-2": {
+      "main-banner-title": "수익을 극대화하는 트레이딩 지표",
+      "main-banner-description": "FinanTex는 실시간 트레이딩 지표를 제공하여 최적의 거래 결정을 돕습니다."
+    },
+    "hp-banner-3": {
+      "main-banner-sub-title-top": "FinanTex는",
+      "main-banner-sub-title-bottom": "혁신으로 만들어졌습니다",
+      "section-bottom": {
+        "item-1": {
+          "title": "FinanTex의 보안성과 안정성",
+          "description": "안정적인 글로벌 플랫폼으로 안전한 거래 환경을 제공합니다."
+        },
+        "item-2": {
+          "title": "친구 초대하고 보상받기",
+          "description": "FinanTex를 친구에게 공유하고 추가 보상을 받으세요."
+        },
+        "item-3": {
+          "title": "빠르고 무료",
+          "description": "무료 입금과 저렴한 출금 수수료를 제공합니다."
+        }
+      }
+    },
+    "hp-banner-4": {
+      "start-with": "단",
+      "after-5-mins": "5분 만에",
+      "section-step": {
+        "step-1": {
+          "main": "1단계",
+          "title": "FinanTex 계정 만들기",
+          "description": "이메일을 사용하여 계정을 생성하세요."
+        },
+        "step-2": {
+          "main": "2단계",
+          "title": "입금하기",
+          "description": "안전한 입금 시스템을 사용하세요."
+        },
+        "step-3": {
+          "main": "3단계",
+          "title": "거래 시작",
+          "description": "매수/매도를 예측하여 수익을 창출하세요."
+        }
+      }
+    },
+    "footer": {
+      "support": "고객 지원",
+      "vip-obligations": "VIP 회원 혜택",
+      "privacy-policy": "개인정보 보호정책",
+      "security": "보안",
+      "terms-and-conditions": "이용 약관",
+      "warning-risk-fqa": "위험 고지",
+      "warning-risk": "이 금융 상품 거래는 높은 위험을 수반하며..."
+    }
+  }
+  

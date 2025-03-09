@@ -1,0 +1,92 @@
+{
+    "name-logo": "FinanTex",
+    "login": "ເຂົ້າລະບົບ",
+    "sign-up": "ລົງທະບຽນ",
+    "start-trading": "ເລີ່ມຕົ້ນຟຣີ",
+    "register-sheet": {
+      "title": "ສ້າງບັນຊີ FinanTex",
+      "email": {
+        "label": "ອີເມວ *",
+        "placeholder": "ໃສ່ອີເມວ..."
+      },
+      "password": {
+        "label": "ລະຫັດຜ່ານ *",
+        "placeholder": "ໃສ່ລະຫັດຜ່ານ..."
+      },
+      "nickname": {
+        "label": "ຊື່ຫຼິ້ນ *",
+        "placeholder": "ໃສ່ຊື່ຫຼິ້ນ..."
+      },
+      "referral_code": {
+        "label": "ລະຫັດແນະນຳ / ໂປໂມຊັນ",
+        "placeholder": "ໃສ່ລະຫັດ..."
+      },
+      "submit": "ລົງທະບຽນ",
+      "login_prompt": {
+        "text": "ມີບັນຊີ FinanTex ແລ້ວບໍ?",
+        "link": "ເຂົ້າລະບົບ"
+      }
+    },
+    "login-sheet": {
+      "title": "ເຂົ້າບັນຊີ",
+      "email": {
+        "label": "ອີເມວ *",
+        "placeholder": "ໃສ່ອີເມວ..."
+      },
+      "password": {
+        "label": "ລະຫັດຜ່ານ *",
+        "placeholder": "ໃສ່ລະຫັດຜ່ານ..."
+      },
+      "forgot_password": "ລືມລະຫັດຜ່ານ?",
+      "submit": "ເຂົ້າລະບົບ",
+      "register_prompt": {
+        "text": "ບໍ່ມີບັນຊີ?",
+        "link": "ສະໝັກທັນທີ"
+      },
+      "resend_email": {
+        "text": "ບໍ່ໄດ້ຮັບອີເມວຢືນຢັນ?",
+        "link": "ສົ່ງອີກຄັ້ງ"
+      }
+    },
+    "resend-verification": {
+      "title": "ສົ່ງອີເມວຢືນຢັນອີກຄັ້ງ",
+      "description": "ໃສ່ອີເມວຂອງເຈົ້າເພື່ອຮັບການຢືນຢັນອີກຄັ້ງ.",
+      "email": {
+        "label": "ອີເມວ",
+        "placeholder": "ໃສ່ອີເມວ..."
+      },
+      "submit": "ສົ່ງອີກຄັ້ງ",
+      "login_prompt": {
+        "text": "ມີບັນຊີແລ້ວ?",
+        "link": "ເຂົ້າລະບົບ"
+      }
+    },
+    "forgot-password": {
+      "title": "ລືມລະຫັດຜ່ານ",
+      "description": "ໃສ່ອີເມວຂອງເຈົ້າເພື່ອຮັບລິ້ງສໍາລັບການຕັ້ງຄ່າລະຫັດຜ່ານໃໝ່.",
+      "email": {
+        "label": "ອີເມວ",
+        "placeholder": "ໃສ່ອີເມວ..."
+      },
+      "submit": "ສົ່ງລິ້ງປ່ຽນລະຫັດຜ່ານ",
+      "login_prompt": {
+        "text": "ມີບັນຊີແລ້ວ?",
+        "link": "ເຂົ້າລະບົບ"
+      }
+    },
+    "hp-banner": {
+      "main-banner-sub-title": "ການຊື້ຂາຍສະຫຼາດ ແລະການພັດທະນາທັກສະ",
+      "main-banner-title": "ແພລດຟອມຊື້ຂາຍທີ່ດີທີ່ສຸດ - FinanTex",
+      "main-banner-description": "FinanTex ເປັນແພລດຟອມທີ່ໃຫ້ໂອກາດລາຍໄດ້ບໍ່ຈຳກັດ, ດ້ວຍການນຳໃຊ້ງ່າຍ."
+    },
+    "footer": {
+      "support": "ການຊ່ວຍເຫຼືອ",
+      "vip-obligations": "ສິດທິພິເສດສໍາລັບ VIP",
+      "privacy-policy": "ນະໂຍບາຍຄວາມປອດໄພ",
+      "security": "ຄວາມປອດໄພ",
+      "terms-and-conditions": "ເງື່ອນໄຂການໃຊ້ງານ",
+      "warning-risk-fqa": "ຄໍາເຕືອນຄວາມສ່ຽງ",
+      "warning-risk": "ການຊື້ຂາຍໃນຜະລິດຕະພັນທາງການເງິນມີຄວາມສ່ຽງສູງ..."
+    }
+  }
+  
