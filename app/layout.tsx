@@ -43,8 +43,7 @@ export default function RootLayout({
     <html lang="vi" suppressHydrationWarning>
                 {/* <link rel="shortcut icon" href={favicon} /> */}
                 <link rel="shortcut icon" href="/favicon.png" />
-                <link rel="icon" href="/favicon.png" />
-
+                <link rel="icon" href="/favicon.png" type="image/x-icon" sizes="16x16"/>
       <body className={cn("min-h-screen min-w-screen", inter.className)}>
         <Providers>
           <Navbar />
