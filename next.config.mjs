@@ -16,7 +16,6 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "betatrade.net",
       },
     ],
   },
